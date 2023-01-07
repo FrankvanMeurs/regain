@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/jgn2ssa.css" />
+
+    <title>Roossien Duurzaamheidstechniek - Meeting MD20D</title>
+  </head>
+
+  <body>
+    <!-- Navigatie -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid nav-color">
+              <a class="navbar-brand logo" href="index.html">
+                <img src="img/Logo_Roossien.svg" height="75" alt="logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse pr-2" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Ons aanbod
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="productoverview.html">Warmtepompen</a>
+                      <a class="dropdown-item" href="productoverview.html">Waterontharders</a>
+                      <a class="dropdown-item" href="productoverview.html">Zonneboilers</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projecten</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">Over ons</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+
+    <div>
+      <div class="containerHeader">
+        <div class="bannerProduct"> <img src="./img/productdetailheader.png">
+          <div class="container">
+              <h3 style="color: white;">Warmtepompen</h3>
+              <h1 class="headerTitle">Meeting MD20D</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product -->
+
+      <div class="container product-info">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/productimage.png" alt="image">
+          </div>
+          <div class="col-md-6">
+            <div class="product-description">
+              <h2>Meeting MD20D</h2>
+              <p>Lucht / water warmtepomp</p>
+              <h3 style="color: #8BBE1E;">€2625,00</h3>
+              <p>Prijs is €2625 inclusief BTW <br>
+                De Subsidie op dit toestel is 2625,- GRATIS na subsidie!</p>
+              <button type="button" class="btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                Meer informatie
+                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="white" width="20" height="20" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLongTitle">Offerte aanvragen</h2>
+
+
+                  <div type="button" class="close close-icon" data-bs-dismiss="modal" aria-label="Close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+                  </div>
+
+              </div>
+
+                <form class="modal-form">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Uw naam</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Vul hier uw naam in" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Telefoonnummer</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Vul hier uw telefoonnummer in" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Emailadres</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Vul hier uw emailadres in" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Model</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Vul hier uw gewenste model in" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Bericht</label>
+                    <textarea class="form-control" placeholder="Vul hier eventuele opmerkingen in" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                  <button class="btn-dark modal-form-btn" type="submit">
+                    Aanvraag versturen
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="white" width="20" height="20" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg>
+                  </button>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Technical specs -->    
+
+    <div class="container specs">
+      <div class="row">
+        <h2>Technische specificaties</h2>
+      </div>
+      <div class="row technical">
+        <div class="col-md-4 tech-center">
+          <h3>Technisch</h3>
+          <li>Modulerende pomp met A-label </li>
+          <li>Gietijzeren behuizing </li>
+        </div>
+        <div class="col-md-4 tech-center">
+          <h3>Max. druk</h3>
+          <li>Max. werkdruk 10 bar</li>
+          <li>Max. bedrijfstemperatuur 95°C</li>
+          <li>Opvoerhoogte 8 meter </li>
+        </div>
+        <div class="col-md-4 tech-center">
+          <h3>Aansluiting</h3>
+          <li>Aansluiting 230 V, 50 Hz</li>
+          <li>Aansluitmaat 1¼”</li>
+        </div>
+      </div>
+    </div>
+
+    <!-- Information box -->
+    <div class="container" style="margin-top: 6vh;">
+      <div class="row">
+        <div class="col">
+          <h2>Hoe werkt een lucht-water warmtepomp?</h2>
+          <p>Een lucht/water-warmtepomp is een warmtepompsysteem dat de buitenlucht als bron gebruikt. Een zogenaamde ‘buitenunit’, een grote ventilator (een soort airconditioner), onttrekt warmte aan de buitenlucht. De warmte wordt via leidingen getransporteerd naar de verdeler die zich in het huis bevindt. Het warme water kan worden gebruikt om kamers te verwarmen met (lage temperatuur) radiatoren of vloerverwarming. Daarnaast kan tapwater voor de keuken of badkamer worden verwarmd.
+
+            De lucht/water warmtepomp is een populaire variant van verwarming, omdat met beperkte investeringen objecten verduurzaamd kunnen worden. In het verleden hadden luchtgevoede warmtepompen moeite om voldoende warmte te produceren bij lage buitentemperaturen. 
+            De huidige luchtgevoede inverter warmtepompen hebben een modulerende werking en functioneren nog goed bij buitentemperaturen van -15˚C. Bovendien zijn de huidige systemen uitgerust met elektronische expansieventielen, zodat het systeem altijd optimaal is bij wisselende omstandigheden. De warmtepompen die wij leveren werken bij buitentemperaturen van -20 graden tot + 45 graden. Met deze warmtepomp is het bijvoorbeeld mogelijk om het water te verwarmen tot 55 graden.
+            
+            Echter is 40 graden al voldoende om water te verwarmen. Wij raden altijd aan om uw warmtepomp aan te sluiten op een buffervat. Mocht u hier een combinatie van willen maken, dan kunt u altijd contact met ons opnemen.
+            Installatie is zeer eenvoudig omdat het monoblok warmtepompen zijn die alleen een buitenunit hebben en door de fabriek al gevuld zijn met gas. Hiervoor is geen STEK installateur nodig. Iedereen met kennis kan deze pomp installeren.
+            De Meeting wordt standaard geleverd met een bedieningspaneel met een 5 meter lange kabel. Met deze kabel is het mogelijk om de warmtepomp in te stellen.
+            
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommended products -->
+
+    <div id="portfolio" class="portfolio position">
+      <div class="container">
+        <div class="section-title">
+          <h2>Bekijk ons aanbod <br> duurzame oplossingen</h2>
+        </div>
+
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-4 portfolio-item">
+            <a href="productoverview.html">
+              <div class="portfolio-wrap">
+                <img
+                  src="img/recommended.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="pricetag">
+                  <p class="price">€599,00</p>
+                </div>
+                <div class="category-button">
+                  <div>
+                    <div class="category-title">AQMOS BM-R2D2-32</div>
+                    <p class="product-sort">Waterontharder</p>
+                  </div>
+                    <div class="category-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg>
+                    </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 portfolio-item">
+            <a href="portfolio-magazine.html">
+              <div class="portfolio-wrap">
+                <img
+                  src="img/recommended.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="pricetag">
+                  <p class="price">€699,00</p>
+                </div>
+                <div class="category-button">
+                  <div>
+                    <div class="category-title">AQMOS BM-R2D2-32</div>
+                    <p class="product-sort">Waterontharder</p>
+                  </div>
+                  <div class="category-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg>
+                  </div>
+              </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 portfolio-item">
+            <a href="portfolio-magazine.html">
+              <div class="portfolio-wrap">
+                <img
+                  src="img/recommended.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="pricetag">
+                  <p class="price">€149,99</p>
+                </div>
+                <div class="category-button">
+                  <div>
+                    <div class="category-title">Aansluitset 15mm</div>
+                    <p class="product-sort">Montageset</p>
+                  </div>
+                  <div class="category-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg>
+                  </div>
+              </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA blok -->
+
+    <div>
+      <div class="containerCTA">
+        <div class="bannerCTA"> <img src="./img/cta.png">
+          <div class="container">
+            <div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+              <div class="row">
+                <div class="col-md-5">
+                  <div>
+
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="cta-section">
+                    <h2>Benieuwd naar de mogelijkheden?</h2>
+                    <p>Een vraag over het rendement is eveneens uniek voor elke woning. Kant-en-klare oplossingen zijn er niet.</p>
+                    <button class="btn-dark">
+                      Vrijblijvend advies aanvragen
+                      <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="white" width="20" height="20" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <a class="navbar-brand logo" href="index.html">
+              <img src="img/Logo_Roossien.svg" height="70" alt="logo"
+            /></a>
+            <p style="margin-top: 10px;">Uw totaal leverancier voor het verduurzamen van uw woning.</p>
+            <p>Duurzaamheidstechniek Roossien <br>
+              <b>KvK. 8438409</b></p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Navigatie</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="about.html">Warmtepompen</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="portfolio.html">Waterontharders</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="contact.html">Zonneboilers</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="contact.html">Projecten</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="contact.html">Over ons</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="contact.html">Contact</a>
+              </li> 
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Producten</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="index.html">Warmtepompen</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="about.html">Waterontharders</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="portfolio.html">Zonneboilers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Contact</h4>
+            <p>
+              <b>
+              Heeft u vragen of bent u benieuwd naar de mogelijkheden?
+            </b>
+            </p>
+            <p>Telefoonnummer: 06 58 77 40 21
+              Email: info@duurzaamroossien.nl</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
